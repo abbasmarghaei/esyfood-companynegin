@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="hp.dddd.Activity_user_sign_in">
+    <include layout="@layout/tool"></include>'
+    <TextView
+        android:layout_width="match_parent"
+        android:text="برای غضویت رمز و میل خود را وارد کنید"
+        android:textSize="20dp"
+        android:textColor="#b9041f"
+        android:id="@+id/ozv"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit_txt_mailevoo"
+        android:drawableRight="@drawable/ic_ghofl"
+        android:hint="پس وورد خود را وارد کنید"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="لطفا تکرار پس وورد وارد کنید"
+
+        android:id="@+id/edit_txt_passvootk"
+        android:drawableRight="@drawable/ic_ghofl"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit_txt_mailevoo1"
+        android:drawableRight="@drawable/ic_email_24dp"
+        android:hint="ایمیل خورا وارد کنید"
+
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_sing_out"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="رمز خود را فراموش کردم"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:id="@+id/sabttt"
+        android:layout_width="match_parent"
+        android:background="#f5b2b2"
+        android:layout_height="55dp">
+        <TextView
+            android:gravity="center"
+            android:textSize="29dp"
+            android:id="@+id/sabt"
+            android:layout_width="match_parent"
+            android:text="ثبت نام"
+            android:layout_marginTop="-11dp"
+            android:textColor="#c60202"
+
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

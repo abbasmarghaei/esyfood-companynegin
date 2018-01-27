@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="right"
+    android:background="#494949"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#494949"
+
+        android:id="@+id/navigition">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_width="250dp"
+                    android:src="@drawable/logo_log"
+                    android:layout_height="250dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="#494949"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:id="@+id/m_sabtr">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="ثبت رستوران"
+                    android:textColor="#fff"
+                    android:id="@+id/login_55ttt" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#f7b736"/>
+            <LinearLayout
+                android:background="#494949"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:id="@+id/m_sabtv">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="ورود"
+                    android:textColor="#fff"
+                    android:id="@+id/login_5ttt" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#f7b736"/>
+
+            <LinearLayout
+                android:background="#494949"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:id="@+id/m_sabtd">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="درباره ما"
+                    android:textColor="#fff"
+                    android:id="@+id/loggin_ttt" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#f7b736"/>
+            <LinearLayout
+            android:background="#494949"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_sabte">
+
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="ارتباط با ما"
+                android:textColor="#fff"
+                android:id="@+id/login_ttt" />
+
+        </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#f7b736"/>
+
+        </LinearLayout>
+    </android.support.design.widget.NavigationView>
+</LinearLayout>

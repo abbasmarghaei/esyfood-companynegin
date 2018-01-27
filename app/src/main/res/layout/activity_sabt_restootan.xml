@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/bg_bak"
+tools:context="hp.dddd.log_in">
+<!--  ax  arm-->
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:src="@drawable/logkoo"
+        android:layout_height="100dp" />
+
+</LinearLayout>
+<!--  edit tex-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="1dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/serch_deds"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#ffffff"
+            android:textColor="#190000"
+            android:textSize="20dp"
+            android:hint="نام و نام خانوادگی"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/serch_dedsf"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#ffffff"
+            android:textColor="#190000"
+            android:textSize="20dp"
+            android:hint="اسمت کسب و کار"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/serch_dedfs"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#ffffff"
+            android:textColor="#190000"
+            android:textSize="20dp"
+            android:hint="شماره تماس"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/ostan_serch_etR"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#ffffff"
+            android:textColor="#190000"
+            android:textSize="20dp"
+            android:hint="استان خود وارد کنید"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <Button
+
+            android:gravity="center"
+            android:id="@+id/ostanbtnR"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:background="#e14715"
+            android:textColor="#190000"
+            android:text="جست و جو"
+            android:textSize="15dp"
+            android:hint=""/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <fragment
+            android:id="@+id/map_adres"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+<!--فراموشی پس -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="210dp">
+    <LinearLayout
+        android:layout_marginTop="-80dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="130dp"
+            android:background="#e14715"
+            android:textColor="#feffff"
+            android:textSize="20dp"
+            android:layout_marginBottom="1dp"
+            android:text="ثبت رستوران"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+        android:layout_marginTop="0dp"
+
+        android:layout_width="350dp"
+        android:src="@drawable/farra"
+        android:layout_height="40dp" /></LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

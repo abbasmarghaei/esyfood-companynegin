@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hp.dddd.useer_restooran">
+<LinearLayout
+
+    android:gravity="right"
+    android:layout_width="match_parent"
+    android:background="@drawable/useer_res_heder"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="75dp"
+        android:layout_width="100dp"
+        android:background="#494949"
+        android:layout_height="100dp">
+        <ImageView
+
+            android:layout_width="90dp"
+            android:src="@drawable/ax4"
+            android:id="@+id/icon_toofl"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_width="55dp"
+        android:background="#494949"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_width="45dp"
+            android:src="@drawable/menud"
+            android:id="@+id/icon_toolUs"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</LinearLayout>
+    <HorizontalScrollView
+        android:scrollbars="none"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#494949"
+        android:layout_marginTop="0dp"
+android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_height="50dp">
+        <Button
+            android:background="#494949"
+
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:text="نظرات"
+            android:textSize="15dp"
+            android:layout_width="100dp"
+            android:textColor="#fbf8f3"
+            android:id="@+id/nazau"
+
+            android:layout_weight="1"
+
+            android:layout_height="30dp" />
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="اطلاعات"
+            android:layout_weight="1"
+            android:background="#494949"
+
+            android:id="@+id/etlu"
+
+            android:textSize="15dp"
+            android:layout_width="100dp"
+            android:textColor="#fbf8f3"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/menuu"
+            android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:text="منو"
+    android:textSize="15dp"
+            android:layout_weight="1"
+            android:background="#494949"
+            android:layout_width="100dp"
+    android:textColor="#fbf8f3"
+    android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <LinearLayout
+android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/backus"
+    android:layout_height="300dp">
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#494949"
+        android:layout_marginTop="7dp"
+        android:layout_width="360dp"
+        android:layout_height="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="-221dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="30dp">
+            <LinearLayout
+                android:layout_marginRight="2dp"
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="130dp"
+                    android:textSize="13dp"
+                    android:text="اضافه کردن به سبد خرید"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:gravity="center"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-6dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="match_parent"
+                    android:textSize="23dp"
+                    android:text="-"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="match_parent"
+                    android:textSize="19dp"
+                    android:text="1"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-4dp"
+
+                    android:textColor="#fbf8f3"
+                    android:layout_width="12dp"
+                    android:textSize="14dp"
+                    android:text="+"
+                    android:layout_height="14dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+
+                    android:layout_width="80dp"
+                    android:textSize="14dp"
+                    android:text="1800تومان"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_width="220dp"
+            android:background="#fcb72b"
+            android:layout_height="35dp">
+            <TextView
+                android:layout_marginRight="40dp"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text=" پیتزا مخلوط"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="15dp"
+                android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pitk"
+            android:layout_width="65dp"
+            android:layout_height="69dp"></LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:background="#494949"
+            android:layout_marginTop="7dp"
+            android:layout_width="360dp"
+            android:layout_height="85dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_marginRight="-221dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="30dp">
+                <LinearLayout
+                    android:layout_marginRight="2dp"
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="130dp"
+                        android:textSize="13dp"
+                        android:text="اضافه کردن به سبد خرید"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:gravity="center"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-6dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="match_parent"
+                        android:textSize="23dp"
+                        android:text="-"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="match_parent"
+                        android:textSize="19dp"
+                        android:text="1"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginRight="7dp"
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-4dp"
+
+                        android:textColor="#fbf8f3"
+                        android:layout_width="12dp"
+                        android:textSize="14dp"
+                        android:text="+"
+                        android:layout_height="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+
+                        android:layout_width="80dp"
+                        android:textSize="14dp"
+                        android:text="1800تومان"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="1dp"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_width="220dp"
+                android:background="#fcb72b"
+                android:layout_height="35dp">
+                <TextView
+                    android:layout_marginRight="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:text=" پیتزا مخلوط"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/pitk"
+                android:layout_width="65dp"
+                android:layout_height="69dp"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#494949"
+        android:layout_marginTop="7dp"
+        android:layout_width="360dp"
+        android:layout_height="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="-221dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="30dp">
+            <LinearLayout
+                android:layout_marginRight="2dp"
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="130dp"
+                    android:textSize="13dp"
+                    android:text="اضافه کردن به سبد خرید"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:gravity="center"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-6dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="match_parent"
+                    android:textSize="23dp"
+                    android:text="-"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="match_parent"
+                    android:textSize="19dp"
+                    android:text="1"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-4dp"
+
+                    android:textColor="#fbf8f3"
+                    android:layout_width="12dp"
+                    android:textSize="14dp"
+                    android:text="+"
+                    android:layout_height="14dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+
+                    android:layout_width="80dp"
+                    android:textSize="14dp"
+                    android:text="1800تومان"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_width="220dp"
+            android:background="#fcb72b"
+            android:layout_height="35dp">
+            <TextView
+                android:layout_marginRight="40dp"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text=" پیتزا مخلوط"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="15dp"
+                android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pitk"
+            android:layout_width="65dp"
+            android:layout_height="69dp"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#494949"
+        android:layout_marginTop="7dp"
+        android:layout_width="360dp"
+        android:layout_height="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="-221dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="30dp">
+            <LinearLayout
+                android:layout_marginRight="2dp"
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="130dp"
+                    android:textSize="13dp"
+                    android:text="اضافه کردن به سبد خرید"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:gravity="center"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-6dp"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="match_parent"
+                    android:textSize="23dp"
+                    android:text="-"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="match_parent"
+                    android:textSize="19dp"
+                    android:text="1"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:background="#fcb72b"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_marginTop="-4dp"
+
+                    android:textColor="#fbf8f3"
+                    android:layout_width="12dp"
+                    android:textSize="14dp"
+                    android:text="+"
+                    android:layout_height="14dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="#fcb72b"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:textColor="#fbf8f3"
+
+                    android:layout_width="80dp"
+                    android:textSize="14dp"
+                    android:text="1800تومان"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_width="220dp"
+            android:background="#fcb72b"
+            android:layout_height="35dp">
+            <TextView
+                android:layout_marginRight="40dp"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text=" پیتزا مخلوط"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="15dp"
+                android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                android:textColor="#fbf8f3"
+
+
+                android:textSize="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pitk"
+            android:layout_width="65dp"
+            android:layout_height="69dp"></LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:background="#494949"
+            android:layout_marginTop="7dp"
+            android:layout_width="360dp"
+            android:layout_height="85dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_marginRight="-221dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="30dp">
+                <LinearLayout
+                    android:layout_marginRight="2dp"
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="130dp"
+                        android:textSize="13dp"
+                        android:text="اضافه کردن به سبد خرید"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:gravity="center"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-6dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="match_parent"
+                        android:textSize="23dp"
+                        android:text="-"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="match_parent"
+                        android:textSize="19dp"
+                        android:text="1"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginRight="7dp"
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-4dp"
+
+                        android:textColor="#fbf8f3"
+                        android:layout_width="12dp"
+                        android:textSize="14dp"
+                        android:text="+"
+                        android:layout_height="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+
+                        android:layout_width="80dp"
+                        android:textSize="14dp"
+                        android:text="1800تومان"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="1dp"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_width="220dp"
+                android:background="#fcb72b"
+                android:layout_height="35dp">
+                <TextView
+                    android:layout_marginRight="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:text=" پیتزا مخلوط"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/pitk"
+                android:layout_width="65dp"
+                android:layout_height="69dp"></LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:background="#494949"
+            android:layout_marginTop="7dp"
+            android:layout_width="360dp"
+            android:layout_height="85dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_marginRight="-221dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="30dp">
+                <LinearLayout
+                    android:layout_marginRight="2dp"
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="130dp"
+                        android:textSize="13dp"
+                        android:text="اضافه کردن به سبد خرید"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:gravity="center"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-6dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="match_parent"
+                        android:textSize="23dp"
+                        android:text="-"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="match_parent"
+                        android:textSize="19dp"
+                        android:text="1"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginRight="7dp"
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-4dp"
+
+                        android:textColor="#fbf8f3"
+                        android:layout_width="12dp"
+                        android:textSize="14dp"
+                        android:text="+"
+                        android:layout_height="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+
+                        android:layout_width="80dp"
+                        android:textSize="14dp"
+                        android:text="1800تومان"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="1dp"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_width="220dp"
+                android:background="#fcb72b"
+                android:layout_height="35dp">
+                <TextView
+                    android:layout_marginRight="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:text=" پیتزا مخلوط"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/pitk"
+                android:layout_width="65dp"
+                android:layout_height="69dp"></LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:background="#494949"
+            android:layout_marginTop="7dp"
+            android:layout_width="360dp"
+            android:layout_height="85dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_marginRight="-221dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="30dp">
+                <LinearLayout
+                    android:layout_marginRight="2dp"
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="130dp"
+                        android:textSize="13dp"
+                        android:text="اضافه کردن به سبد خرید"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:gravity="center"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-6dp"
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="match_parent"
+                        android:textSize="23dp"
+                        android:text="-"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="match_parent"
+                        android:textSize="19dp"
+                        android:text="1"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginRight="7dp"
+                    android:background="#fcb72b"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_marginTop="-4dp"
+
+                        android:textColor="#fbf8f3"
+                        android:layout_width="12dp"
+                        android:textSize="14dp"
+                        android:text="+"
+                        android:layout_height="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="#fcb72b"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:textColor="#fbf8f3"
+
+                        android:layout_width="80dp"
+                        android:textSize="14dp"
+                        android:text="1800تومان"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="1dp"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_width="220dp"
+                android:background="#fcb72b"
+                android:layout_height="35dp">
+                <TextView
+                    android:layout_marginRight="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:text=" پیتزا مخلوط"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:text=" سس مخصوصو ژانبون گوشت و مرغ و ذرت. قارچ فل فل دلمه ایی
+"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/pitk"
+                android:layout_width="65dp"
+                android:layout_height="69dp"></LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#494949">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#494949">
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:gravity="right"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="250dp"
+                android:background="@drawable/khkk"
+                android:layout_height="58dp">
+                <TextView
+                    android:layout_weight="2"
+
+                    android:layout_marginRight="11dp"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:text="     مشاهده سبد خرید"
+                    android:textColor="#fbf8f3"
+                    android:layout_marginTop="20dp"
+
+
+                    android:textSize="14dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="11dp"
+
+                android:layout_width="60dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_weight="1"
+
+                    android:layout_marginRight="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="پیک"
+                    android:textColor="#fbf8f3"
+
+
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="20dp"
+                android:background="#fcb72b"
+                android:layout_height="20dp">
+            </LinearLayout>
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="100dp"
+    android:gravity="right"
+android:layout_marginTop="-20dp"
+    android:layout_height="30dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/mojood"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

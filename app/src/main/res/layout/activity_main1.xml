@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context="hp.d11_dizine1_slaider.MainActivity">
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--  -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+            <!-- navar balaee
+            -->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right"
+android:background="#494949"
+            android:layout_height="45dp">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="206dp"
+                android:src="@drawable/asan"
+                android:id="@+id/icon_logo"
+                android:layout_marginRight="62dp"
+                android:layout_height="35dp" />
+            <ImageView
+                android:layout_marginTop="5dp"
+
+                android:layout_width="45dp"
+                android:src="@drawable/menud"
+                android:id="@+id/icon_tool"
+                android:layout_marginRight="8dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+
+            <!-- slAYDER  -->
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <!-- NAGHSHE   -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="#f7f3f3"
+                android:layout_height="200dp">
+
+                <fragment
+                    android:id="@+id/mapmain"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <!-- serch
+                -->
+            <LinearLayout
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/serch"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/serch"
+                    android:layout_height="wrap_content">
+                <EditText
+
+                    android:gravity="center"
+                    android:id="@+id/serch_ed"
+                    android:layout_width="160dp"
+                    android:layout_height="30dp"
+                    android:background="#ffffff"
+                    android:textColor="#190000"
+                    android:textSize="10dp"
+                    android:hint="استان خود را وارد کنید"/>
+
+                <Button
+                    android:id="@+id/serch_b"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/serchd"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- cafe baetar   -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/baetar"
+                android:layout_height="170dp">
+
+                <TextView
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/serch_bbb"
+                    android:layout_width="200dp"
+                    android:text="کافی شاپ های برتر"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    />
+                <!-- scrool aks -->
+                <HorizontalScrollView
+                    android:scrollbars="none"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <!-- start cardview -->
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:src="@drawable/ax1"
+                            android:layout_marginRight="3dp"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax2"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax3"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax4"
+                            android:layout_height="100dp" />
+
+                        <!-- end cardview -->
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+            <!-- restooran bartar  -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/res_b"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/re_bad"
+                    android:layout_width="200dp"
+                    android:text="رستوران های برتر"
+                    android:textColor="#f7f2f2"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    />
+                <!-- scrool aks -->
+                <HorizontalScrollView
+                    android:scrollbars="none"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <!-- start cardview -->
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:src="@drawable/ax1"
+                            android:layout_marginRight="3dp"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax2"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax3"
+                            android:layout_height="100dp" />
+                        <ImageView
+                            android:id="@+id/tstr"
+
+                            android:layout_width="160dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/ax4"
+                            android:layout_height="100dp" />
+
+                        <!-- end cardview -->
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+            <!-- sabt nam -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/log_in"
+                android:layout_height="70dp">
+
+                <ImageView
+
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/re_ba"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    />
+                <!-- scrool aks -->
+
+
+            </LinearLayout>
+            <!--
+                         <LinearLayout
+
+                android:layout_marginTop="33dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:id="@+id/serch_ed"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_normal"
+
+                    android:textColor="#190000"
+                    android:hint="شهر را وارد کنید"/>
+
+                <Button
+android:text="جستوچو"
+                    android:id="@+id/serch_b"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_normald"
+                    />
+
+
+            </LinearLayout>
+
+             -->
+
+        </LinearLayout>
+
+        <!--  اخر لینر لیوت کلی-->
+    </ScrollView>
+</LinearLayout>
